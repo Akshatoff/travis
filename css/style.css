@@ -5832,4 +5832,159 @@ h6 {
     line-height: 1.5;
 }
 
+.program_detail_wrap {
+  width: 60rem;
+  margin: 0 auto;
+}
+
+.col-lg-8 {
+  max-width: none !important;
+}
+
+.ticket-horizontal-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.ticket-horizontal-card {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3s ease;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.ticket-horizontal-card:hover {
+    transform: translateY(-3px);
+}
+
+.ticket-image {
+    width: 30rem; /* 480px */
+    height: auto;
+    object-fit: contain;
+    margin-right: 40px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.ticket-info {
+    flex: 1;
+    min-width: 300px;
+    color: white;
+}
+
+.ticket-info h3 {
+    margin: 0 0 10px;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.ticket-info p {
+    color: #ddd;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.ticket-options {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.ticket-options select,
+.ticket-options input {
+    padding: 10px 14px;
+    background: rgba(0, 0, 0, 1.0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    min-width: 120px;
+    flex: 1 1 140px;
+}
+
+.ticket-options button {
+    background: #ff4757;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.3s;
+    flex: 1 1 100px;
+}
+
+.ticket-options button:hover {
+    background: #e8414d;
+}
+
+@media (max-width: 992px) {
+    .ticket-horizontal-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ticket-image {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .ticket-options {
+        justify-content: center;
+    }
+}
+
+
+.program_detail_wrap h2,
+.program_detail_wrap h3 {
+    color: #fff;
+}
+
+.card.bg-dark {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #444;
+}
+
+@media (max-width: 768px) {
+    .ticket-horizontal-card {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ticket-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+.checkout_section {
+  margin-top: 2rem;
+}
+
+.checkout_btn {
+  background-color: #ff3b3f;
+  color: white;
+  padding: 1rem 2.5rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.checkout_btn:hover {
+  background-color: #e03135;
+  text-decoration: none;
+  color: white;
+}
 

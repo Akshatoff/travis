@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>EventCon</title>
+    <title>Circus Maximus</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -87,24 +87,98 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="section_title text-center mb-80 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
-                    <h3>Program Details</h3>
+                    <h3>Buy Tickets</h3>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="program_detail_wrap">
+                    <h2 class="text-center text-white mb-5">Choose <em>Your</em> Ticket</h2>
+                        <div class="ticket-horizontal-wrapper">
+    <!-- Ticket Card -->
+    <div class="ticket-horizontal-card">
+        <img src="./assets/ticket.png" alt="1-Day Ticket" class="ticket-image">
+        <div class="ticket-info">
+            <h3>1-DAY TICKET</h3>
+            <p>One-day access to all festival events</p>
+            <div class="ticket-options">
+                <select>
+                    <option>Type</option>
+                    <option>Standard</option>
+                    <option>VIP</option>
+                </select>
+                <select>
+                    <option>Date</option>
+                    <option>Oct 23</option>
+                    <option>Oct 24</option>
+                </select>
+                <input type="number" min="1" value="1">
+                <button>Add</button>
+            </div>
+        </div>
+    </div>
 
-                    
+    <!-- Ticket Card -->
+    <div class="ticket-horizontal-card">
+        <img src="./assets/ticket.png" alt="1-Day Ticket + Guide" class="ticket-image">
+        <div class="ticket-info">
+            <h3>1-DAY TICKET (+GUIDE)</h3>
+            <p>Festival access + guided tour</p>
+            <div class="ticket-options">
+                <select>
+                    <option>Type</option>
+                    <option>Standard</option>
+                    <option>VIP</option>
+                </select>
+                <select>
+                    <option>Date</option>
+                    <option>Oct 23</option>
+                    <option>Oct 24</option>
+                </select>
+                <input type="number" min="1" value="1">
+                <button>Add</button>
+            </div>
+        </div>
+    </div>
 
-
-
-                </div>
+    <!-- Ticket Card -->
+    <div class="ticket-horizontal-card">
+        <img src="./assets/ticket.png" alt="Premium Ticket" class="ticket-image">
+        <div class="ticket-info">
+            <h3>PREMIUM TICKET</h3>
+            <p>Month-long access with lounge & guide</p>
+            <div class="ticket-options">
+                <select>
+                    <option>Access</option>
+                    <option>All Access</option>
+                </select>
+                <select>
+                    <option>Date</option>
+                    <option>Full Month</option>
+                </select>
+                <input type="number" min="1" value="1">
+                <button>Add</button>
             </div>
         </div>
     </div>
 </div>
 
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="checkout_section text-center mt-5">
+    <button class="btn checkout_btn" onclick="checkoutAlert()">Proceed to Checkout</button>
+</div>
+</div>
+
+    <script>
+  function checkoutAlert() {
+    alert("Your ticket has been booked!");
+  }
+</script>
 
     <script src="js/main.js"></script>
 </body>
